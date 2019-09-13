@@ -1,5 +1,9 @@
 module.exports = {
-  collectCoverageFrom: ['src/**/*.{js,jsx}', '!src/app.js'],
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx}',
+    '!src/app.js',
+    '!src/utils/history.js',
+  ],
   coveragePathIgnorePatterns: ['/node_modules/'],
   coverageThreshold: {
     global: {
