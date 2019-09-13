@@ -1,0 +1,40 @@
+# Don't check auto-generated stuff into git
+coverage
+dist
+node_modules
+package.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+
+# Environment variables
+.env
+.npmrc
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~

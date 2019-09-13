@@ -1,0 +1,8 @@
+
+dist/
+node_modules/
+config/mocks/
+config/tests/
+package-lock.json
+yarn.lock
+package.json
