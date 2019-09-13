@@ -12,7 +12,8 @@
     "lint:css:fix": "stylelint **/*.scss --fix",
     "lint:eslint": "eslint --ignore-path .eslintignore",
     "lint:eslint:fix": "eslint --ignore-path .eslintignore  --fix",
-    "lint:js": "npm run lint:eslint -- . "
+    "lint:js": "npm run lint:eslint -- . ",
+    "coverage": "codecov --token=11c3422a-5663-4dd9-a36c-873245ff8881"
   },
   "author": "Arturo Gómez Ceballos",
   "dependencies": {
@@ -33,6 +34,7 @@
     "@testing-library/jest-dom": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
+    "codecov": "^3.5.0",
     "css-loader": "^3.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
