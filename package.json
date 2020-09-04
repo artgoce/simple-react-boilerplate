@@ -55,7 +55,7 @@
     "image-webpack-loader": "^6.0.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.9.0",
     "react-testing-library": "^8.0.1",
